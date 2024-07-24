@@ -1,6 +1,8 @@
 # Deep Cooperative Neural Networks for Dual Attention Learning
 
-The primary objective of this project is to develop a state-of-the-art dual-attention deep learning model that can simultaneously process and learn from user reviews and item descriptions. This model aims to enhance the interpretability and accuracy of recommendation systems by focusing on the most relevant textual information provided by both users and items. The project leverages multilingual transformers (MT5) for rich contextual embeddings and incorporates LSTM and attention mechanisms to capture temporal dependencies and enhance the model’s ability to focus on significant parts of the text.
+The primary objective of this project is to develop a state-of-the-art dual-attention deep learning model that can simultaneously process and learn from user reviews and item descriptions. This model aims to enhance the interpretability and accuracy of recommendation systems by focusing on the most relevant textual information provided by both users and items. 
+
+The project uses multilingual transformers (MT5) for rich contextual embeddings and incorporates LSTM and attention mechanisms to capture temporal dependencies and enhance the model’s ability to focus on significant parts of the text.
 
 ## Process Explanation
 
