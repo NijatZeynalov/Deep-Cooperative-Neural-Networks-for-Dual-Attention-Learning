@@ -26,6 +26,21 @@ Combining ensures comprehensive representation of user preferences and item feat
 
 Transforms combined representation and generates recommendation scores. It pass concatenated vector through a dense layer and use the output layer to produce final recommendation scores.
 
+## Training the Model
+
+To train the model, run the following command:
+
+```python
+python -m src.training.train
+```
+## Evaluation
+
+To evaluate the model, run the following command:
+
+```python
+python -m src.training.evaluate
+```
+
 ## Data Source
 
 I have used the Amazon Product Review Dataset for this project. This dataset includes user reviews and detailed item descriptions, providing a rich source of textual information necessary for training and evaluating the dual-attention deep learning model. The data has been preprocessed and split into training, validation, and test sets. The processed files are train.csv, val.csv, and test.csv, located in the data/ directory.
